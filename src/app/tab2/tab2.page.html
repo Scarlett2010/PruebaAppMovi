@@ -1,0 +1,123 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Resume </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- INICIO DEL COMPONENTE -->
+  <ion-card>
+    <ion-card-header>
+      <div class="info-container">
+        <ion-card-title>Scarlett Luna</ion-card-title>
+      </div>
+      <ion-card-subtitle>Información</ion-card-subtitle>
+    </ion-card-header>
+
+    <!-- Avatar Chip -->
+    <ion-chip>
+      <ion-avatar class="avatar">
+        <img
+          alt="Silhouette of a person's head"
+          src="https://scontent.fuio13-1.fna.fbcdn.net/v/t39.30808-1/365786425_1606705316523419_6569146121690564325_n.jpg?stp=dst-jpg_s200x200&_nc_cat=111&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeEb6tlEJfzDUWaEbGmnx7hfE0HFQ3UoQHATQcVDdShAcCuiQOpMlvdT3CyJoWjX26XyH7hCaHtty_GvXtghgyMw&_nc_ohc=o9XkCM_eInsQ7kNvgGB0x8H&_nc_zt=24&_nc_ht=scontent.fuio13-1.fna&_nc_gid=Az7d-hzcofnsXCjOVXEepfX&oh=00_AYAFik1cyighl_PrG6DWDNdfAlXsRUAwyr3LSVHhUlTqng&oe=6721BE9B"
+        />
+      </ion-avatar>
+      <ion-label>Scarlett</ion-label>
+      <ion-icon name="close-circle"></ion-icon>
+    </ion-chip>
+
+    <h3>
+      Soy de la cuidad de Quito, Ecuador, estudie en el colegio La Salle y
+      Mejia, tengo 20 años
+    </h3>
+    <div class="container" ion-content color="light">
+      <ion-list [inset]="true">
+        <div class="info-container">
+          <ion-icon class="icon-heart" name="heart-outline"></ion-icon>
+          <ion-card-title>Mis gustos son:</ion-card-title>
+        </div>
+        <ion-item>
+          <ion-label>Leer</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Componer poemas</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Prgramar</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Patinar</ion-label>
+        </ion-item>
+      </ion-list>
+    </div>
+  </ion-card>
+  <ion-chip class="chip">
+    <ion-icon name="pin" color="primary"></ion-icon>
+    <ion-label>Icon Chip</ion-label>
+    <ion-icon name="close"></ion-icon>
+
+    <ion-icon name="library-outline"></ion-icon>
+  </ion-chip>
+  <h3>
+    Actualmente estudio en la Universidad Escuela Politecnica Nacional, la
+    carrera se trata desarrollo de Software
+  </h3>
+  <!-- Avatar Chip -->
+
+  <ion-card-content>
+    Programadora de software con habilidades analiticas, proactiva, con
+    capacidad de desarrollar páginas web elegantes y pioneras. Habilidades de
+    desarrollo web.
+  </ion-card-content>
+  <!--FIN DEL COMPONENTE -->
+  <!--componente 2 -->
+  <!--fin componente 2 -->
+  <!-- 3-->
+  <br />
+  <div class="info-container">
+    <ion-card-title>En mis estudios me enfoco en: </ion-card-title>
+  </div>
+  <br />
+  <br />
+  <ion-chip color="primary">SQL Mangment</ion-chip>
+  <ion-chip color="secondary">Python</ion-chip>
+  <ion-chip color="tertiary">C++</ion-chip>
+  <ion-chip color="success">Java</ion-chip>
+  <ion-chip color="warning">React</ion-chip>
+  <ion-chip color="danger">Node.js</ion-chip>
+  <!-- fin 3-- >
+  <!-- 4-->
+  <br />
+  <br />
+  <ion-checkbox>Deja tus comentarios</ion-checkbox>
+  <br />
+  <!-- fin 4-->
+  <br />
+  <ion-title>Opinion</ion-title>
+  <ion-list>
+    <div class="info-container">
+      <ion-card-title>Formulario</ion-card-title>
+    </div>
+    <ion-item>
+      <ion-input label="Correo sluna6360@gmail.com"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Nombre:" placeholder="Pedro"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+        label="Comentario:"
+        placeholder="Mi comentario es ..."
+      ></ion-input>
+    </ion-item>
+    <ion-button color="secondary">Enviar</ion-button>
+  </ion-list>
+</ion-content>
