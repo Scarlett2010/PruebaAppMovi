@@ -1,0 +1,24 @@
+ion-grid {
+    ion-row {
+      align-items: center;
+      justify-content: space-between;
+    }
+    ion-item {
+      margin-bottom: 15px;
+    }
+    background-color: #a3d2e6;
+  }
+.fecha {
+    padding: 30px;
+    display:flex;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.dato {
+    font-size: 20px;
+    display:flex;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}

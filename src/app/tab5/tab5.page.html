@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Ecuación Cuadrática</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2>Ingrese los coeficientes</h2>
+  <ion-card class="ion-card">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Coeficiente a</ion-label>
+            <ion-input type="number" [(ngModel)]="a"></ion-input>
+          </ion-item>
+        </ion-col>
+
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Coeficiente b</ion-label>
+            <ion-input type="number" [(ngModel)]="b"></ion-input>
+          </ion-item>
+        </ion-col>
+
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">Coeficiente c</ion-label>
+            <ion-input type="number" [(ngModel)]="c"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-button
+        color="secondary"
+        expand="flex"
+        shape="round"
+        (click)="calculateRoots()"
+        >Calcular Raíces</ion-button
+      >
+    </ion-grid>
+  </ion-card>
+  <h2>Resultados</h2>
+  <p>{{ roots }}</p>
+</ion-content>
