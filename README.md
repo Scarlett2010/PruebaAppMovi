@@ -12,6 +12,10 @@ En esta prueba se eligieron los temas:
 
 - Una pestaña permitirá calcular las raices de una ecuación cuadrática.
 
+- Ahora se mejoro la app, personalizandola con un icono distintivo y un splash screen
+
+### Mejoras añadidas
+
 
 ### Tab 1
 [![App Screenshot](https://raw.githubusercontent.com/Scarlett2010/PruebaAppMovi/refs/heads/main/Captura%20de%20pantalla%202024-10-28%20153029.png)]
