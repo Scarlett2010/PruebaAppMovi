@@ -15,7 +15,8 @@ En esta prueba se eligieron los temas:
 - Ahora se mejoro la app, personalizandola con un icono distintivo y un splash screen
 
 ### Mejoras añadidas
-
+[![App Screenshot](https://github.com/Scarlett2010/PruebaAppMovi/blob/Scarlett2010-patch-AppMejorada/icono.jpg)]
+[![App Screenshot](https://github.com/Scarlett2010/PruebaAppMovi/blob/Scarlett2010-patch-AppMejorada/icono-splash.jpg)]
 
 ### Tab 1
 [![App Screenshot](https://raw.githubusercontent.com/Scarlett2010/PruebaAppMovi/refs/heads/main/Captura%20de%20pantalla%202024-10-28%20153029.png)]
